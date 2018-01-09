@@ -6,6 +6,7 @@ Tags: Array, Two Pointers, Easy
 
 - leetcode: [Remove Element](https://leetcode.com/problems/remove-element/)
 - lintcode: [Remove Element](http://www.lintcode.com/en/problem/remove-element/)
+- nowcoder: [Remove Element](https://www.nowcoder.com/practice/1e1b7d86039e4427b4b6f7cbb856c301?tpId=46&tqId=29152&tPage=1&rp=1&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking)
 
 ### Problem Statement
 
