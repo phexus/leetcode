@@ -1,5 +1,7 @@
 # Remove Duplicates from Sorted Array
 
+Tags: Array, Two Pointers, Easy
+
 ## Question
 
 - leetcode: [Remove Duplicates from Sorted Array | LeetCode OJ](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -18,7 +20,6 @@ Given input array A = [1,1,2],
 
 Your function should return length = 2, and A is now [1,2].
 
-Example
 ```
 
 ## 题解 - 两根指针从前往后遍历
@@ -31,7 +32,8 @@ public:
             return 0;
         
         int new_id = 0;
-        for (int i = 0; i < n; ++ i) {
+        // i 要从第二个元素开始遍历
+        for (int i = 1; i < n; ++ i) {
             if (A[i] != A[new_id]) {
                 A[++ new_id] = A[i];
             }
@@ -44,7 +46,7 @@ public:
 
 ### 源码分析
 
-与 remove element 类似，由于是已经排好序的，一根指针用来遍历，另一根指针指向新的数组头部，每次比较两根指针所指向的元素，若不同完成覆写。注意 new_id 写入新元素后要自增。最后返回的数组长度也应该　＋１。
+与 remove element 类似，由于是已经排好序的，一根指针用来遍历（注意从第二个元素开始遍历），另一根指针指向新的数组头部，每次比较两根指针所指向的元素，若不同完成覆写。注意 new_id 写入新元素后要自增。最后返回的数组长度也应该　＋１。
 
 ### 复杂度分析
 
