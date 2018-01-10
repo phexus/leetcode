@@ -8,9 +8,12 @@ LeetCode Problems' Solutions and Notes
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](Array/Remove_Duplicates_from_Sorted_Array.md)|Easy|`Array`|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[C++](Array/Remove_Duplicates_from_Sorted_Array_II.md)|Medium|`Array`|
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[C++](Array/Plus_One.md)|Easy|`Array`|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](Array/Merge_Sorted_Array.md)|Easy|`Array`|
 ||||||
 ||||||
-
+||||||
+||||||
+||||||
 
 ## 参考资源
 
