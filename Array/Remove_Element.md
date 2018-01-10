@@ -87,6 +87,7 @@ public:
 此方法只遍历一次数组，因此时间复杂度是 $$O(n)$$, 空间复杂度为 $$O(1)$$.
 
 ## 解法2 - STL 的 erase()
+
 ```cpp
 class Solution {
 public:

@@ -5,6 +5,7 @@ LeetCode Problems' Solutions and Notes
 |No.|Title|Solution|Difficulty|Tag|
 |---|-----|--------|----------|---|
 |27|[Remove Element](https://leetcode.com/problems/remove-element)|[C++](Array/Remove_Element.md)|Easy|`Array`|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](Array/Remove_Duplicates_from_Sorted_Array.md)|Easy|`Array`|
 
 
 
