@@ -1,12 +1,12 @@
-# Two Sum
+# Two Sum II - Input array is sorted
 
 Tags: Array, Easy
 
 ## Question
 
-- leetcode: [Two Sum](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
-- lintcode: [Two Sum](http://www.lintcode.com/en/problem/two-sum/)
-- nowcoder: [Two Sum](https://www.nowcoder.com/practice/20ef0972485e41019e39543e8e895b7f?tpId=46&tqId=29177&tPage=1&rp=1&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking)
+- leetcode: [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+- lintcode: [Two Sum II](http://www.lintcode.com/en/problem/two-sum/)
+- nowcoder: [Two Sum II](https://www.nowcoder.com/practice/20ef0972485e41019e39543e8e895b7f?tpId=46&tqId=29177&tPage=1&rp=1&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking)
 
 ### Problem Statement
 
