@@ -24,3 +24,4 @@ LeetCode Problems' Solutions and Notes
 
 - [数据结构与算法/leetcode/lintcode题解](https://www.gitbook.com/book/yuanbin/algorithm/details) - 非常用心的整理，很详细，可以说本书的组织架构都是参考此书的，也让我学到了关于 gitbook 的一些撰写技巧，再次感谢！
 - [LeetCode题解](https://www.gitbook.com/book/siddontang/leetcode-solution/details) - 部分题参考这本书的解法，每个章节的题目也是从易到难，我是按照这个顺序去刷题的。
+- [九章算法参考查询](http://www.jiuzhang.com/solutions/) - LINTCODE / LEETCODE 参考答案查询，提供 Java / C++ / Python 等多种语言的参考程序查询和解题讨论

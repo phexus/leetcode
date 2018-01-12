@@ -8,7 +8,6 @@ Tags: Array, Medium
 - lintcode: [(57) 3 Sum](http://www.lintcode.com/en/problem/3sum/)
 - nowcoder: [3 Sum](https://www.nowcoder.com/practice/345e2ed5f81d4017bbb8cc6055b0b711?tpId=46&tqId=29163&tPage=1&rp=1&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking)
 
-
 ### Problem Statement
 
 Given an array _S_ of _n_ integers, are there elements _a_, _b_, _c_ in _S_
