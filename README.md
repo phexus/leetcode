@@ -15,6 +15,28 @@ LeetCode Problems' Solutions and Notes
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](Array/3Sum_Closest.md)|Medium|`Array`|
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](Array/4Sum.md)|Medium|`Array`|
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[C++](Array/4Sum_II.md)|Medium|` `|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|[C++](Array/Pascal's_Triangle.md)|Easy|`Array`|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|[C++](Array/Pascal's_Triangle_II.md)|Easy|`Array`|
+|561|[Array Partition I](https://leetcode.com/problems/array-partition-i)|[C++](Array/Array_Partition_I.md)|Easy|`Array`|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[C++](Array/First_Missing_Positive.md)|Hard|`Array`|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[C++](Array/Best_Time_to_Buy_and_Sell_Stock.md)|Easy|`Array`|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[C++](Array/Best_Time_to_Buy_and_Sell_Stock_II.md)|Easy|`Array`|
+|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[C++](Array/Best_Time_to_Buy_and_Sell_Stock_III.md)|Hard|`Array`|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[C++](Array/Rotate_Image.md)|Medium|`Array`|
+|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[C++](Array/Container_With_Most_Water.md)|Medium|`Array`|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/solution/)|[C++](Array/Sort_Colors.md)|Medium|`Array`|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[C++](Array/Search_a_2D_Matrix.md)|Medium|`Array`|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](Array/Next_Permutation.md)|Medium|`Array`|
+|54|[Spiral Matrix 待补全](https://leetcode.com/problems/spiral-matrix/description/)|[C++](Array/Spiral_Matrix.md)|Medium|`Array`|
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[C++](Array/Spiral_Matrix_II.md)|Medium|`Array`|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[C++](Array/Convert_Sorted_Array_to_Binary_Search_Tree.md)|Easy|`Array`|
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)|[C++](Array/Longest_Consecutive_Sequence.md)|Hard|`Array`|
+|56|[Merge Intervals 待补全](https://leetcode.com/problems/merge-intervals/description/)|[C++](Array/Merge_Intervals.md)|Medium|`Array`|
+|9|[[Palindrome Number 待补全](https://leetcode.com/problems/palindrome-number/solution/)|[C++](Math/Palindrome_Number.md)|Easy|`Math`|
+||||||
+||||||
+||||||
+||||||
 ||||||
 ||||||
 ||||||
