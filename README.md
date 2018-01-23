@@ -33,6 +33,24 @@ LeetCode Problems' Solutions and Notes
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)|[C++](Array/Longest_Consecutive_Sequence.md)|Hard|`Array`|
 |56|[Merge Intervals 待补全](https://leetcode.com/problems/merge-intervals/description/)|[C++](Array/Merge_Intervals.md)|Medium|`Array`|
 |9|[[Palindrome Number 待补全](https://leetcode.com/problems/palindrome-number/solution/)|[C++](Math/Palindrome_Number.md)|Easy|`Math`|
+|141|[Linked List Cycle]|[C++](Linked_List/Linked_List_Cycle.md)|Easy|`Linked List`|
+|142|[Linked List Cycle II]|[C++](Linked_List/Linked_List_Cycle_II.md)|Medium|`Linked List`|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|[C++](Linked_List/Remove_Duplicates_from_Sorted_List.md)|Easy|`Linked List`|
+|82|[[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|[C++](Linked_List/Remove_Duplicates_from_Sorted_List_II.md)|Medium|`Linked List`|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](Linked_List/Merge_Two_Sorted_Lists.md)|Easy|`Linked List`|
+|23|[Merge k Sorted Lists 待完成](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](/home/phexus/workspace/gitbook/leetcode/Linked_List/Merge_k_Sorted_Lists.md)|Hard|`Linked List`|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[C++](Linked_List/Reverse_Linked_List.md)|Easy|`Linked List`|
+|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)|[C++](Linked_List/Reverse_Linked_List_II.md)|Medium|`Linked List`|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C++](Linked_List/Reverse_Nodes_in_k-Group.md)|Hard|`Linked List`|
+|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)|[C++](Linked_List/Swap_Nodes_in_Pairs.md)|Medium|`Linked List`|
+|2|[[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](Linked_List/Add_Two_Numbers.md)|Medium|`Linked List`|
+|86|[Partition List](https://leetcode.com/problems/partition-list/description/)|[C++](Linked_List/Partition_List.md)|Medium|`Linked List`|
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
 ||||||
 ||||||
 ||||||

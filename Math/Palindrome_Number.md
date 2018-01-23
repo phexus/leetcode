@@ -55,3 +55,4 @@ public:
 
 https://www.nowcoder.com/questionTerminal/35b8166c135448c5a5ba2cff8d430c32
 https://leetcode.com/problems/palindrome-number/solution/
+https://siddontang.gitbooks.io/leetcode-solution/content/array/palindrome_number.html
