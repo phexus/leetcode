@@ -45,10 +45,10 @@ LeetCode Problems' Solutions and Notes
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)|[C++](Linked_List/Swap_Nodes_in_Pairs.md)|Medium|`Linked List`|
 |2|[[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](Linked_List/Add_Two_Numbers.md)|Medium|`Linked List`|
 |86|[Partition List](https://leetcode.com/problems/partition-list/description/)|[C++](Linked_List/Partition_List.md)|Medium|`Linked List`|
-||||||
-||||||
-||||||
-||||||
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[C++](Linked_List/Remove_Nth_Node_From_End_of_List.md)|Medium|`Linked List`|
+|61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[C++](Linked_List/Rotate_List.md)|Medium|`Linked List`|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)|[C++](Linked_List/Copy_List_with_Random_Pointer.md)|Medium|`Linked List`|
+|109|[[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[C++](Linked_List/Convert_Sorted_List_to_Binary_Search_Tree.md)|Medium|`Linked List`|
 ||||||
 ||||||
 ||||||
