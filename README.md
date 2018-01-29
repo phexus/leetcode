@@ -38,7 +38,7 @@ LeetCode Problems' Solutions and Notes
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|[C++](Linked_List/Remove_Duplicates_from_Sorted_List.md)|Easy|`Linked List`|
 |82|[[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|[C++](Linked_List/Remove_Duplicates_from_Sorted_List_II.md)|Medium|`Linked List`|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](Linked_List/Merge_Two_Sorted_Lists.md)|Easy|`Linked List`|
-|23|[Merge k Sorted Lists 待完成](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](/home/phexus/workspace/gitbook/leetcode/Linked_List/Merge_k_Sorted_Lists.md)|Hard|`Linked List`|
+|23|[Merge k Sorted Lists 待补充](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](/home/phexus/workspace/gitbook/leetcode/Linked_List/Merge_k_Sorted_Lists.md)|Hard|`Linked List`|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[C++](Linked_List/Reverse_Linked_List.md)|Easy|`Linked List`|
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)|[C++](Linked_List/Reverse_Linked_List_II.md)|Medium|`Linked List`|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C++](Linked_List/Reverse_Nodes_in_k-Group.md)|Hard|`Linked List`|
@@ -48,7 +48,40 @@ LeetCode Problems' Solutions and Notes
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[C++](Linked_List/Remove_Nth_Node_From_End_of_List.md)|Medium|`Linked List`|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[C++](Linked_List/Rotate_List.md)|Medium|`Linked List`|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)|[C++](Linked_List/Copy_List_with_Random_Pointer.md)|Medium|`Linked List`|
-|109|[[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[C++](Linked_List/Convert_Sorted_List_to_Binary_Search_Tree.md)|Medium|`Linked List`|
+|109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[C++](Linked_List/Convert_Sorted_List_to_Binary_Search_Tree.md)|Medium|`Linked List`|
+|148|[Sort List 待补全](https://leetcode.com/problems/sort-list)|[C++](Linked_List/Sort_List.md)|Medium|`Linked List`|
+|147|[[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[C++](Linked_List/Insertion_Sort_List.md)|Medium|`Linked List`|
+|143|[Reorder List](https://leetcode.com/problems/reorder-list/description/)|[C++](Linked_List/Reorder_List.md)|Medium|`Linked List`|
+|169|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[C++](Linked_List/Intersection_of_Two_Linked_Lists.md)|Easy|`Linked List`|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|[C++](Linked_List/Remove_Linked_List_Elements.md)|Easy|`Linked List`|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)|[C++](Linked_List/Delete_Node_in_a_Linked_List.md)|Easy|`Linked List`|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)|[C++](Linked_List/Palindrome_Linked_List.md)|Easy|`Linked List`|
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
 ||||||
 ||||||
 ||||||

@@ -21,6 +21,12 @@ For k = 3, you should return: 3->2->1->4->5
 
 ## 题解
 
+本题在解决了前两道 rever node 的相关题目之后就显得相对简单了，但是要注意一些小的细节。[参考解法](https://siddontang.gitbooks.io/leetcode-solution/content/linked_list/reverse_linked_list.html) 中把 reverse 方法单独拎出来了，所以会清晰很多。我下面的解法是写在一起的，所以要注意一些迭代变量的环境保存。
+
+另外，在做每隔 k 个结点找遍历开始结点时，for loop 里的语句写颠倒了，结果导致空指针，一定要注意先移动再判断。
+
+这种 reverse 的方法，是一种通用的套路，一定是需要一个前驱结点的，但是由于是部分 reverse，所以还需要一个 end 结点，作为结束的标志。
+
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -65,3 +71,8 @@ public:
     }
 };
 ```
+
+###　复杂度分析
+
+遍历了一遍链表，时间复杂度　$$O(n)$$
+空间复杂度　$$O(1)$$
