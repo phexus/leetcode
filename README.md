@@ -56,15 +56,15 @@ LeetCode Problems' Solutions and Notes
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|[C++](Linked_List/Remove_Linked_List_Elements.md)|Easy|`Linked List`|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)|[C++](Linked_List/Delete_Node_in_a_Linked_List.md)|Easy|`Linked List`|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)|[C++](Linked_List/Palindrome_Linked_List.md)|Easy|`Linked List`|
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[C++](Tree/Maximum_Depth_of_Binary_Tree.md)|Easy|`Tree`|
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](Tree/Minimum_Depth_of_Binary_Tree.md)|Easy|`Tree`|
+|100|[[Same Tree](https://leetcode.com/problems/same-tree/description/)|[C++](Tree/Same_Tree.md)|Easy|`Tree`|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)|[C++](leetcode/Tree/Symmetric_Tree.md)|Easy|`Tree`|
+|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)|[C++](Tree/Binary_Tree_Preorder_Traversal.md)|Medium|`Tree`|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[C++](Tree/Binary_Tree_Inorder_Traversal.md)|Medium|`Tree`|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[C++](Tree/Binary_Tree_Postorder_Traversal.md)|Hard|`Tree`|
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[C++]()|Medium|`Tree`|
+|107|[Binary Tree Level Order Traversal II]()|[C++]()|Easy|`Tree`|
 ||||||
 ||||||
 ||||||
