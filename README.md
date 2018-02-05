@@ -63,21 +63,22 @@ LeetCode Problems' Solutions and Notes
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)|[C++](Tree/Binary_Tree_Preorder_Traversal.md)|Medium|`Tree`|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[C++](Tree/Binary_Tree_Inorder_Traversal.md)|Medium|`Tree`|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[C++](Tree/Binary_Tree_Postorder_Traversal.md)|Hard|`Tree`|
-|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[C++]()|Medium|`Tree`|
-|107|[Binary Tree Level Order Traversal II]()|[C++]()|Easy|`Tree`|
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[C++](Tree/Binary_Tree_Level_Order_Traversal.md)|Medium|`Tree`|
+|107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)|[C++](Tree/Binary_Tree_Level_Order_Traversal_II.md)|Easy|`Tree`|
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[C++](Tree/Binary_Tree_Zigzag_Level_Order_Traversal.md)|Medium|`Tree`|
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)|[C++](Tree/Balanced_Binary_Tree.md)|Easy|`Tree`|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[C++](Tree/Path_Sum.md)|Easy|`Tree`|
+|113|[[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)|[C++](Tree/Path Sum II.md)|Medium|`Tree`|
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](Tree/Binary_Tree_Maximum_Path_Sum.md)|Hard|`Tree`|
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[C++](/home/phexus/workspace/gitbook/leetcode/Tree/Populating_Next_Right _Pointers_in_Each_Node.md)|Medium|`Tree`|
+|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|[C++](Tree/Populating_Next_Right _Pointers_in_Each_Node_II.md)|Medium|`Tree`|
+|96|[[Unique Binary Search Trees 待补全](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](Tree/Unique_Binary_Search_Trees.md)|Medium|`Tree`|
+|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)|[C++](Tree/Unique_Binary_Search_Trees_II.md)|Medium|`Tree`|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal 待补全](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|[C++](Tree/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.md)|Medium|`Tree`|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[C++]()|Medium|`Tree`|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[C++](Tree/Validate_Binary_Search_Tree.md)|Medium|`Tree`|
+|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)|[C++](Tree/Recover_Binary_Search_Tree.md)|Hard|`Tree`|
+|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)|[C++](Tree/Sum Root to Leaf Numbers.md)|Medium|`Tree`|
 ||||||
 ||||||
 ||||||

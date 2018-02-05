@@ -142,7 +142,54 @@ public:
 
 最坏情况下栈内存储所有节点，空间复杂度近似为 $$O(n)$$, 每个节点遍历两次或以上，时间复杂度近似为 $$O(n)$$.
 
-## 解法３ - 迭代 - 反转先序遍历
+## 解法3 - 迭代
+
+该解法是在做 Path Sum 一题时，看到[后序遍历](https://discuss.leetcode.com/topic/2455/accepted-by-using-postorder-traversal/2) 时发现的，非常巧妙地把复杂的逻辑判断分类到了 else 分支里。这样就与 先序、中序的解法统一了
+
+这里的几个边界条件处理的非常机智，else 分支里的 `curr = NULL` 确保了下次进循环只会弹栈，而不会重复遍历
+
+```cpp
+/**
+ * Definition for binary tree
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode *root) {
+        vector<int> result;
+        if (! root) return result;
+        
+        stack<TreeNode *> s;
+        TreeNode *pre = NULL, *curr = root;
+        
+        while (curr || !s.empty()) {
+            while (curr) {
+                s.push(curr);
+                curr = curr->left;
+            }
+
+            curr = s.top();
+
+            if (curr->right && pre != curr->right) { // 存在没被访问的右孩子
+                curr = curr->right;
+            } else {
+                result.push_back(curr -> val);
+                pre = curr;
+                s.pop();
+                curr = NULL; // 这里非常关键！！！下次进循环时只能弹栈而不重复遍历
+            }
+        }
+        return result;
+    }
+};
+```
+
+## 解法4 - 迭代 - 反转先序遍历
 
 [参考](https://algorithm.yuanbin.me/zh-hans/binary_tree/binary_tree_postorder_traversal.html) 给出了一个非常机智的解法：
 `要想得到『左右根』的后序遍历结果，我们发现只需将『根右左』的结果转置即可，而先序遍历通常为『根左右』，故改变『左右』的顺序即可，所以如此一来后序遍历的非递归实现起来就非常简单了。`
