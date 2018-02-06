@@ -79,6 +79,43 @@ LeetCode Problems' Solutions and Notes
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[C++](Tree/Validate_Binary_Search_Tree.md)|Medium|`Tree`|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)|[C++](Tree/Recover_Binary_Search_Tree.md)|Hard|`Tree`|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)|[C++](Tree/Sum Root to Leaf Numbers.md)|Medium|`Tree`|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[C++](Stack/Valid_Parentheses.md)|Easy|`Stack`|
+|32|[Longest Valid Parentheses 待补全DP](https://leetcode.com/problems/longest-valid-parentheses/description/)|[C++](Stack/Longest_Valid_Parentheses.md)|Hard|`Stack`|
+|42|[Trapping Rain Water 待补全DP](https://leetcode.com/problems/trapping-rain-water/description/)|[C++](Stack/Trapping_Rain_Water.md)|Hard|`Stack`|
+|84|[Largest Rectangle in Histogram 待补全DP](https://leetcode.com/problems/largest-rectangle-in-histogram)|[C++]()|Hard|`Stack`|
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[C++](Stack/Evaluate_Reverse_Polish_Notation.md)|Medium|`Stack`|
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
+||||||
 ||||||
 ||||||
 ||||||
