@@ -27,22 +27,21 @@ Sort a linked list using insertion sort.
  */
 class Solution {
 public:
-    ListNode* insertionSortList(ListNode* head) {
+    ListNode *insertionSortList(ListNode *head) {
         if (! head || ! head -> next) return head;
         
         ListNode dummy(0);
-        ListNode* newCurr = & dummy;
         ListNode* curr = head;
         
         while (curr) {
-            newCurr = & dummy;
+            ListNode* last = &dummy;
             
-            while (newCurr -> next && newCurr -> next -> val < curr -> val) newCurr = newCurr -> next;
+            while (last -> next && last -> next -> val < curr -> val) last = last -> next;
             
-            ListNode* tmp = newCurr -> next;
-            newCurr -> next = curr;
-            curr = curr -> next;
-            newCurr -> next -> next = tmp;
+            ListNode* tmp = curr -> next;
+            curr -> next = last -> next;
+            last -> next = curr;
+            curr = tmp;
         }
         
         return dummy.next;
@@ -53,3 +52,36 @@ public:
 ### 复杂度分析
 
 时间复杂度 $$O(n^2)$$
+
+## 解法２ - 递归
+
+递归的思路是相同的，只是会从右边往左边生成，因为会递归到链表尾部再不断返回。
+
+```cpp
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* insertionSortList(ListNode* head) {
+        if (!head || !head -> next) return head;
+        
+        ListNode dummy(0);
+        ListNode* last = &dummy;
+        dummy.next = insertionSortList(head -> next);
+        
+        while (last -> next && last -> next -> val < head -> val) last = last -> next;
+        
+        head -> next = last -> next;
+        last -> next = head;
+        
+        return dummy.next;
+    }
+};
+
+```
