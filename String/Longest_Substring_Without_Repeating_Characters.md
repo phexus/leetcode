@@ -195,3 +195,23 @@ public:
 
 以上时间复杂度均为 $$O(n)$$
 空间复杂度 $$O(min(m, n))$$. Same as the previous approach. We need $$O(k)$$ space for the sliding window, where $$k$$ is the size of the Set. The size of the Set/Map is upper bounded by the size of the string $$n$$ and the size of the charset/alphabet $$m$$
+
+
+
+## Solution - 模板
+
+模板参见 Minium Window Substring
+
+```cpp
+int lengthOfLongestSubstring(string s) {
+        vector<int> map(128,0);
+        int counter=0, begin=0, end=0, d=0; 
+        while(end<s.size()){
+            if(map[s[end++]]++>0) counter++; 
+            while(counter>0) if(map[s[begin++]]-->1) counter--;
+            d=max(d, end-begin); //while valid, update d
+        }
+        return d;
+    }
+```
+

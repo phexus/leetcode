@@ -38,6 +38,7 @@ LeetCode Problems' Solutions and Notes
 | 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [C++]()                                  | Medium     | `Array`         |
 | 33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [C++]()                                  | Medium     | `Array`         |
 | 81   | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [C++](Array/Search_in_Rotated_Sorted_Array_II.md) | Medium     | `Array`         |
+| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |                                          | Easy       | `Array`         |
 | 9    | [Palindrome Number 待补全](https://leetcode.com/problems/palindrome-number/solution/) | [C++](Math/Palindrome_Number.md)         | Easy       | `Math`          |
 | 7    | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [C++](Math/Reverse_Integer.md)           | Easy       | `Math`          |
 | 136  | [Single Number](https://leetcode.com/problems/single-number) | [C++]( Math/Single_Number.md)            | Easy       | `Math`          |
@@ -45,6 +46,8 @@ LeetCode Problems' Solutions and Notes
 | 260  | [Single Number III](https://leetcode.com/problems/single-number-iii) | [C++](Math/Single_Number_III.md)         | Medium     | `Math`          |
 | 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](Math/Pow(x, n).md)                 | Medium     | `Math`          |
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx) 待补充 | [C++](Math/Sqrt(x).md)                   | Easy       | `Math`          |
+| 149  | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | [C++](Math/Max_Points_on_a_Line.md)      | Hard       | `Math`          |
+| 29   | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](Math/Divide_Two_Integers.md)       | Medium     | `Math`          |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](Linked_List/Linked_List_Cycle.md)  | Easy       | `Linked List`   |
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](Linked_List/Linked_List_Cycle_II.md) | Medium     | `Linked List`   |
 | 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [C++](Linked_List/Remove_Duplicates_from_Sorted_List.md) | Easy       | `Linked List`   |
@@ -118,6 +121,7 @@ LeetCode Problems' Solutions and Notes
 | 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | [C++](String/String_to_Integer_(atoi).md) | Hard       | `String`        |
 | 65   | [Valid Number 待补全](https://leetcode.com/problems/valid-number) | [C++](String/Valid_Number.md)            | Hard       | `String`        |
 | 68   | [Text Justification](https://leetcode.com/problems/text-justification) | [C++](String/Text_Justification.md)      | Hard       | `String`        |
+| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](String/Minimum_Window_Substring.md) | Hard       | `String`        |
 | 46   | [Permutations 待补全](https://leetcode.com/problems/permutations) | [C++](Backtracking/Permutations.md)      | Medium     | `Backtracking`  |
 | 47   | [Permutations II 待补全](https://leetcode.com/problems/permutations-ii) | [C++](Backtracking/Permutations_II.md)   | Medium     | `Backtracking`  |
 | 197* | [Permutation Index](http://www.lintcode.com/en/problem/permutation-index/) | [C++](Backtracking/Permutation_Index.md) | Easy       | `Lintcode`      |
@@ -130,10 +134,14 @@ LeetCode Problems' Solutions and Notes
 | 90   | [Subsets II](https://leetcode.com/problems/subsets-ii) | [C++](Backtracking/Subsets_II.md)        | Medium     | `Backtracking`  |
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) 待补充 | [C++](Backtracking/Generate_Parentheses.md) | Medium     | `Backtracking`  |
 | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [C++](Backtracking/Letter_Combinations_of_a_Phone_Number.md) | Medium     | `Backtracking`  |
+| 93   | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [C++](Backtracking/Restore_IP_Addresses.md) | Medium     | `Backtracking`  |
+| 79   | [Word Search](https://leetcode.com/problems/word-search) | [C++](Backtracking/Word_Search.md)       | Medium     | `Backtracking`  |
+| 51   | [N-Queens](https://leetcode.com/problems/n-queens) 待补充 | []                                       | Hard       | `Backtracking`  |
+| 52   | [N-Queens II](https://leetcode.com/problems/n-queens-ii) 待补充 | []                                       | Hard       | `Backtracking`  |
 | 34   | [Search for a Range](https://leetcode.com/problems/search-for-a-range) | [C++](BinarySearch/Search_for_a_Range.md) | Medium     | `Binary Search` |
-|      |                                          |                                          |            |                 |
-|      |                                          |                                          |            |                 |
-|      |                                          |                                          |            |                 |
+| 134  | [Gas Station](https://leetcode.com/problems/gas-station) | [C++](Greedy/Gas_Station.md)             | Medium     | `Greedy`        |
+| 55   | [Jump Game](https://leetcode.com/problems/jump-game) 待补全 | [C++](Greedy/Jump_Game.md)               | Medium     | `Greedy`        |
+| 133  | [Clone Graph](https://leetcode.com/problems/clone-graph) |                                          | Medium     | `Graph`         |
 |      |                                          |                                          |            |                 |
 |      |                                          |                                          |            |                 |
 |      |                                          |                                          |            |                 |
