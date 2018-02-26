@@ -1,6 +1,6 @@
 # Palindrome Partitioning
 
-Tags: Medium, Medium
+Tags: Medium, Medium, Backtracking
 
 ## Problem
 
@@ -19,7 +19,9 @@ Return
 ## Solution 1 - recursive - DFS
 
 `如果要求输出所有可能的解，往往都是要用深度优先搜索。如果是要求找出最优的解，或者解的数量，往往可以使用动态规划。`
-因为要输出所有可能的解，而每个解必须遍历玩整个字符串，所以这里用到了深度优先的思想，用递归实现。
+因为要输出所有可能的解，而每个解必须遍历完整个字符串，所以这里用到了深度优先的思想，用递归实现。
+
+实际上就是 backtracking，做好剪枝处理。
 
 每次去判断 `s.substr(0, i)` 是否是回文，如果是回文，则继续递归调用字符串剩下的部分，`s.substr(i)`，不要忘了在最后要将这次 push 的子串 pop 掉。（因为是递归调用的，深层的调用要返回时证明就已经处理完毕了，而 curr 传递的是引用，如果不 pop 掉，就会修改结果，影响上层）
 
@@ -124,5 +126,12 @@ public:
 };
 ```
 
+### 复杂度
+
+状态数最多 $$O(2^{n-1})$$, 故时间复杂度为 $$O(2^n)$$, 使用了current列表，空间复杂度为 $$O(n)$$.
+
 ## Solution 2 - DP 
 
+画出递归树后，发现其实有很多计算重复了，
+
+[参考1](https://leetcode.com/problems/palindrome-partitioning/discuss/41982/Java-DP-+-DFS-solution) [参考2](https://leetcode.com/problems/palindrome-partitioning/discuss/41974/My-Java-DP-only-solution-without-recursion.-O(n2))

@@ -18,6 +18,44 @@ This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
 
 ## 解法
 
+感觉这道题就是非常直接的做法，因为题目已经告诉了 intervals 里已经是排好序了的，依次比较 合并 插入就好了。
+
+```cpp
+/**
+ * Definition for an interval.
+ * struct Interval {
+ *     int start;
+ *     int end;
+ *     Interval() : start(0), end(0) {}
+ *     Interval(int s, int e) : start(s), end(e) {}
+ * };
+ */
+class Solution {
+public:
+    vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) {
+        vector<Interval> ans;
+        
+        int i = 0;
+        while (i < intervals.size() && intervals[i].end < newInterval.start) ans.push_back(intervals[i++]);
+        
+        while (i < intervals.size() && intervals[i].start <= newInterval.end) {
+            newInterval.start = min(newInterval.start, intervals[i].start);
+            newInterval.end = max(newInterval.end, intervals[i].end);
+            ++i;
+        }
+        ans.push_back(newInterval);
+        
+        while (i < intervals.size()) ans.push_back(intervals[i++]);
+        
+        return ans;
+    }
+};
+```
+
+
+
+## Reference
+
 https://leetcode.com/problems/insert-interval/discuss/21602/Short-and-straight-forward-Java-solution
 
 https://leetcode.com/problems/insert-interval/discuss/21632/Very-short-and-easy-to-understand-C++-solution

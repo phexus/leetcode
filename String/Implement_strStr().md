@@ -22,17 +22,17 @@ Output: -1
 用双重 for 循环来做，效率不高，感觉比较简单，但实现起来坑还是比较多：
 
 1. 边界问题：
-题目也没说清楚，毕竟不熟悉 strStr()，下面是试出来的。。
-当 haystack 为空， needle 也为空时 返回 0；
-当 haystack 不为空， needle 为空时 返回 0；
-当 haystack 为空， needle 不为空时 返回 -1；
-当 haystack 长度 < needle 长度时 返回 -1；
+  题目也没说清楚，毕竟不熟悉 strStr()，下面是试出来的。。
+  当 haystack 为空， needle 也为空时 返回 0；
+  当 haystack 不为空， needle 为空时 返回 0；
+  当 haystack 为空， needle 不为空时 返回 -1；
+  当 haystack 长度 < needle 长度时 返回 -1；
 
 前三条总结为，当 needle 为空时，直接返回 0，后面两条符合后续逻辑，输出 -1
 
 2. haystack.size() 返回类型 为 `string::size_type`，是 `unsigned integral type`
-在处理 haystack 长度 < needle 长度时，没有单独写逻辑来判断，而是通过设置外层 loop 的终止条件来实现，为仅遍历源字符串中有可能和目标字符串匹配的部分索引。
-但是，初次写的代码是这样的：
+  在处理 haystack 长度 < needle 长度时，没有单独写逻辑来判断，而是通过设置外层 loop 的终止条件来实现，为仅遍历源字符串中有可能和目标字符串匹配的部分索引。
+  但是，初次写的代码是这样的：
 
 ```cpp
 for (int i = 0; i < haystack.size() - needle.size() + 1; ++i) {
@@ -96,4 +96,28 @@ public:
 };
 ```
 
+另一种写法
+
+```cpp
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        if (needle.empty()) return 0;
+        
+        for (int i = 0; ; ++i) {
+            for (int j = 0; ; ++j) {
+                if(j == needle.size()) return i;
+                if (i + j == haystack.size()) return -1;
+                if (haystack[i + j] != needle[j]) break;
+            }
+        }
+    }
+};
+```
+
+### 复杂度
+
+双重 for 循环，时间复杂度最坏情况下为 $$O((n-m)*m)$$. 即 $$O(n * m)$$
+
 ## 解法2 - KMP
+
