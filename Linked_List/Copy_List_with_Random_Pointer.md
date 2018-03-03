@@ -150,14 +150,14 @@ public:
         //设置新节点的random
         curr = head;
         while (curr) {
-            if (curr -> random) curr -> next -> random = curr -> random -> next;
+            if (curr -> random) curr -> next -> random = curr -> random -> next; //这里的 if 判断很重要
             curr = curr -> next -> next;
         }
         
         //断开链表
         RandomListNode* newHead = head -> next;
         curr = head;
-        while (curr) {
+        while (curr) { // 注意这里需要对新节点和老结点都处理
             RandomListNode* newCurr = curr -> next;
             curr -> next = curr -> next -> next;
             curr = curr -> next;

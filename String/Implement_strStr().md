@@ -17,7 +17,7 @@ Example 2:
 Input: haystack = "aaaaa", needle = "bba"
 Output: -1
 
-## 解法1 - 双重 for 循环遍历
+## 解法1 - 暴力匹配 - 双重 for 循环遍历
 
 用双重 for 循环来做，效率不高，感觉比较简单，但实现起来坑还是比较多：
 
@@ -121,3 +121,100 @@ public:
 
 ## 解法2 - KMP
 
+参考了 《编程之法》一书的 4.4 节，详细的讲解了 KMP 算法。
+
+KMP 在实现的时候有以下几点需要注意：
+
+1. 实现 next 数组的时候，pattern[k]  代表前缀，pattern[j] 代表后缀，由于在循环体里是先++，再赋值，所以 k ，j 的初始值设为 `int k = -1, int j = 0;` 而且要提前把 next[0] = -1 设好。循环体的判断条件为 `j < n - 1` 
+2. `k == -1 || pattern[j] == pattern[k]` 若前缀下标为 -1 也要囊括进去
+3. 主函数 i, j 分别代表 haystack 和 needle 的下标，这里的判断条件 `j == -1 || haystack[i] == needle[j]` 是 j ，因为 i 永远之后递增，只有 j 才会回溯。虽然 j 的初始值为 0， 但是有可能会变为 -1 的。
+4. 最后的判断是 `if (j == n) return i - j;` 因为 i 一定会加到 m，但 j 不匹配的话一定不会递增到末尾，所以 j 到末尾是可以判断的。
+
+### C++
+
+```cpp
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        if (needle.empty()) return 0;
+        int m = haystack.size();
+        int n = needle.size();
+        vector<int> next(n);
+        getNext(needle, next);
+        
+        int i = 0, j = 0;
+        while (i < m && j < n) {
+            if (j == -1 || haystack[i] == needle[j]) {
+                ++i;
+                ++j;
+            } else {
+                j = next[j];
+            }
+        }
+        
+        if (j == n) return i - j;
+        else return -1;
+    }
+    
+    void getNext(string& pattern, vector<int>& next) {
+        int n = next.size();
+        next[0] = -1;
+        int k = -1, j = 0;
+        
+        while (j < n - 1) {
+            if (k == -1 || pattern[j] == pattern[k]) {
+                ++j, ++k;
+                if (pattern[j] != pattern[k]) next[j] = k;
+                else next[j] = next[k];
+            } else {
+                k = next[k];
+            }
+        }
+        
+    }
+};
+```
+
+### C
+
+C 的形参传递数组的话，应该写作 `int next[]` 而不能写成 `int[] next`
+
+```cpp
+class Solution {
+public:
+    char *strStr(char *haystack, char *needle) {
+        int m = strlen(haystack);
+        int n = strlen(needle);
+        int next[n];
+        getNext(needle, next);
+        
+        int i = 0, j = 0;
+        while (i < m && j < n) {
+            if (j == -1 || haystack[i] == needle[j]) ++i, ++j;
+            else j = next[j];
+        }
+        
+        if (j == n) return haystack + i - j;
+        else return NULL;
+    }
+    
+    void getNext(char* needle, int next[]) {
+        int n = strlen(needle);
+        next[0] = -1;
+        int k = -1, j = 0;
+        while (j < n - 1) {
+            if (k == -1 || needle[k] == needle[j]) {
+                ++k, ++j;
+                if (needle[k] != needle[j]) next[j] = k;
+                else next[j] = next[k];
+            } else {
+                k = next[k];
+            }
+        }
+    }
+};
+```
+
+### 复杂度
+
+文本串长度为 m, 匹配字符串长度为 n，那么匹配过程的时间复杂度为 `O(m)` 计算 next 的时间为 `O(n)`，故 KMP 算法的整体时间复杂度为 $$O(m + n)$$ 

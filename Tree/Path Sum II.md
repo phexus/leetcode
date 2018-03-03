@@ -142,6 +142,48 @@ public:
 };
 ```
 
+后来发现本题与 `剑指 offer` 面试题 25 一样，这是二刷时的写法：
+
+要小心的就是 `ans.push_back(curr);` 的判定条件是 `sum == root -> val` ，其实这里的 sum 更准确来说是剩余值，另外不要像其他 backtracking 一样 push 之后就 return，这里要继续走到最后，需要 pop_back
+
+```cpp
+/*
+struct TreeNode {
+	int val;
+	struct TreeNode *left;
+	struct TreeNode *right;
+	TreeNode(int x) :
+			val(x), left(NULL), right(NULL) {
+	}
+};*/
+class Solution {
+public:
+    vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {
+        if (root == NULL) return vector<vector<int>> ();
+        
+        vector<vector<int>> ans;
+        vector<int> curr;
+        help(root, expectNumber, curr, ans);
+        return ans;
+    }
+    
+    void help(TreeNode* root, int sum, vector<int>& curr, vector<vector<int>>& ans) {
+        if (sum < 0) return;
+        
+        curr.push_back(root -> val);
+        if (!root -> left && !root -> right && sum == root -> val) {
+            ans.push_back(curr);
+        }
+        
+        if (root -> left) help(root -> left, sum - (root -> val), curr, ans);
+        if (root -> right) help(root -> right, sum - (root -> val), curr, ans);
+        curr.pop_back();
+    }
+};
+```
+
+
+
 ##　解法2 - DFS - 后序遍历
 
 ```cpp

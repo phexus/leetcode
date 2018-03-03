@@ -26,6 +26,7 @@ LeetCode Problems' Solutions and Notes
 | 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [C++](Array/Container_With_Most_Water.md) | Medium     | `Array`               |
 | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/solution/) | [C++](Array/Sort_Colors.md)              | Medium     | `Array`               |
 | 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [C++](Array/Search_a_2D_Matrix.md)       | Medium     | `Array`               |
+| 240  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | [C++](Array/Search_a_2D_Matrix_II.md)    | Medium     | `Array`               |
 | 31   | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [C++](Array/Next_Permutation.md)         | Medium     | `Array`               |
 | 54   | [Spiral Matrix 待补全](https://leetcode.com/problems/spiral-matrix/description/) | [C++](Array/Spiral_Matrix.md)            | Medium     | `Array`               |
 | 59   | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [C++](Array/Spiral_Matrix_II.md)         | Medium     | `Array`               |
@@ -49,6 +50,8 @@ LeetCode Problems' Solutions and Notes
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx) 待补充 | [C++](Math/Sqrt(x).md)                   | Easy       | `Math`                |
 | 149  | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | [C++](Math/Max_Points_on_a_Line.md)      | Hard       | `Math`                |
 | 29   | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](Math/Divide_Two_Integers.md)       | Medium     | `Math`                |
+| 233  | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](Math/Number_of_Digit_One.md)       | Hard       | `Math`                |
+| 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [C++](Math/Number_of_1_Bits.md)          | Easy       | `Bit Manipulation`    |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](Linked_List/Linked_List_Cycle.md)  | Easy       | `Linked List`         |
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](Linked_List/Linked_List_Cycle_II.md) | Medium     | `Linked List`         |
 | 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [C++](Linked_List/Remove_Duplicates_from_Sorted_List.md) | Easy       | `Linked List`         |
@@ -101,6 +104,9 @@ LeetCode Problems' Solutions and Notes
 | 84   | [Largest Rectangle in Histogram 待补全DP](https://leetcode.com/problems/largest-rectangle-in-histogram) | [C++]()                                  | Hard       | `Stack`               |
 | 85   | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) 待补充 DP | [C++]()                                  | Hard       | `Stack`               |
 | 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [C++](Stack/Evaluate_Reverse_Polish_Notation.md) | Medium     | `Stack`               |
+| 232  | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [C++](Stack/Implement_Queue_using_Stacks.md) | Easy       | `Stack`               |
+| 225  | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | [C++](Stack/Implement_Stack_using_Queues.md) | Easy       | `Stack`               |
+| 155  | [Min Stack](https://leetcode.com/problems/min-stack) | [C++](Stack/Min_Stack.md)                | Easy       | `Stack`               |
 | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [C++](String/Integer_to_Roman.md)        | Medium     | `String`              |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | [C++](String/Roman_to_Integer.md)        | Easy       | `String`              |
 | 28   | [Implement strStr() 待补充 kmp](https://leetcode.com/problems/implement-strstr/description/) | [C++]()                                  | Easy       | `String`              |
