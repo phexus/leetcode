@@ -28,6 +28,8 @@ return `[3, 4]`.
 
 求 lower bound 返回 start，求 upper bound 返回 end
 
+`if (start >= nums.size() || nums[start] != target)` 这里的边界判断比较精髓，因为如果找不到的话，要么 `start >= nums.size()` ，要么 `data[start] != k` 因为 start 是不可能 < 0 的。
+
 ```cpp
 class Solution {
 public:

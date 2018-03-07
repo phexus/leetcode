@@ -94,7 +94,7 @@ public:
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Solution {
+class Solution {shouye
 public:
     bool isSymmetric(TreeNode* root) {
         queue<TreeNode*> q;

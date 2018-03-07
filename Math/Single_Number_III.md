@@ -20,6 +20,8 @@ Special thanks to [@jianchao.li.fighter](https://leetcode.com/discuss/user/jianc
 
 ## Solution
 
+与 `剑指 offer` 面试题 40 相同
+
 由于这次有两个数要输出，依次异或最终得到的结果是 a ^ b，但也就到此为止了，尽管 `a ^ b ^ a =b` 有这样的性质，但这就是一个死循环，你不知道 a，就没法求 b，你不知道 b， 就没法求 a。。。
 
 要进行分组，把 a 分到一组，b 分到另一组。由于 a 与 b 肯定不同，所以 `a ^ b != 0` 那么也就意味着 a 与 b 一定有不相同的位，这里非常巧妙的用了减法找到了最后一个不相同位 `lastDiffBit = aXORb - (aXORb & (aXORb - 1));` -1 操作非常精髓，直接把最后一个不同位标记出来了。
