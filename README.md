@@ -55,6 +55,7 @@ LeetCode Problems' Solutions and Notes
 | 233  | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](Math/Number_of_Digit_One.md)       | Hard       | `Math`                |
 | 263  | [Ugly Number](https://leetcode.com/problems/ugly-number) | [C++](Math/Ugly_Number.md)               | Easy       | `Math`                |
 | 264  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [C++](Math/Ugly_Number_II.md)            | Medium     | `Math`                |
+| 204  | [Count Primes](https://leetcode.com/problems/count-primes) | [C++](Math/Count_Primes.md)              | Easy       | `Math`                |
 | 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [C++](Math/Number_of_1_Bits.md)          | Easy       | `Bit Manipulation`    |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](Linked_List/Linked_List_Cycle.md)  | Easy       | `Linked List`         |
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](Linked_List/Linked_List_Cycle_II.md) | Medium     | `Linked List`         |
@@ -104,6 +105,7 @@ LeetCode Problems' Solutions and Notes
 | 129  | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) | [C++](Tree/Sum Root to Leaf Numbers.md)  | Medium     | `Tree`                |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) 待补充 | [C++](Tree/Serialize_and_Deserialize_Binary_Tree.md) | Hard       | `Tree`                |
 | 230  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) 待补全 | [C++](Tree/Kth_Smallest_Element_in_a _BST.md) | Medium     | `Tree`                |
+| 572  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | [C++](Tree/Subtree_of_Another_Tree.md)   | Easy       | `Tree`                |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [C++](Stack/Valid_Parentheses.md)        | Easy       | `Stack`               |
 | 32   | [Longest Valid Parentheses 待补全DP](https://leetcode.com/problems/longest-valid-parentheses/description/) | [C++](Stack/Longest_Valid_Parentheses.md) | Hard       | `Stack`               |
 | 42   | [Trapping Rain Water 待补全DP](https://leetcode.com/problems/trapping-rain-water/description/) | [C++](Stack/Trapping_Rain_Water.md)      | Hard       | `Stack`               |
@@ -137,6 +139,7 @@ LeetCode Problems' Solutions and Notes
 | 68   | [Text Justification](https://leetcode.com/problems/text-justification) | [C++](String/Text_Justification.md)      | Hard       | `String`              |
 | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](String/Minimum_Window_Substring.md) | Hard       | `String`              |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [C++](String/Reverse_Words_in_a_String.md) | Medium     | `String`              |
+| 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [C++](String/First_Unique_Character_in_a_String.md) | Easy       | `String`              |
 | 46   | [Permutations 待补全](https://leetcode.com/problems/permutations) | [C++](Backtracking/Permutations.md)      | Medium     | `Backtracking`        |
 | 47   | [Permutations II 待补全](https://leetcode.com/problems/permutations-ii) | [C++](Backtracking/Permutations_II.md)   | Medium     | `Backtracking`        |
 | 197* | [Permutation Index](http://www.lintcode.com/en/problem/permutation-index/) | [C++](Backtracking/Permutation_Index.md) | Easy       | `Lintcode`            |
@@ -178,7 +181,7 @@ LeetCode Problems' Solutions and Notes
 | 139  | [Word Break](https://leetcode.com/problems/word-break) | [C++](DynamicProgramming/Word_Break.md)  | Medium     | `Dynamic Programming` |
 | 140  | [Word Break II](https://leetcode.com/problems/word-break-ii) 待补充 | [C++](DynamicProgramming/Word_Break_II.md) | Hard       | `Dynamic Programming` |
 | 295  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) 待补充 | [C++](Heap/Find_Median_from_Data_Stream.md) | Hard       | `Heap`                |
-|      |                                          |                                          |            |                       |
+| 493  | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) 待补全 | [C++](Others/Reverse_Pairs.md)           | Hard       | `Others`              |
 |      |                                          |                                          |            |                       |
 |      |                                          |                                          |            |                       |
 |      |                                          |                                          |            |                       |

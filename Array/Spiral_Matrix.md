@@ -73,3 +73,34 @@ public:
 
 [参考解法](https://leetcode.com/problems/spiral-matrix/solution/)
 [参考2](https://www.nowcoder.com/questionTerminal/7edf70f2d29c4b599693dc3aaeea1d31)
+
+### 优化
+
+上面的判断显得太过于累赘
+
+while 里的 `if (r1 < r2 && c1 < c2)` 很关键。
+
+```cpp
+class Solution {
+public:
+    vector<int> printMatrix(vector<vector<int> > matrix) {
+        if (matrix.empty()) return vector<int>();
+        int r1 = 0, r2 = matrix.size() - 1;
+        int c1 = 0, c2 = matrix[0].size() - 1;
+        
+        vector<int> ans;
+        while (r1 <= r2 && c1 <= c2) {
+            for (int c = c1; c <= c2; ++c) ans.push_back(matrix[r1][c]);
+            for (int r = r1 + 1; r <= r2; ++r) ans.push_back(matrix[r][c2]);
+            
+            if (r1 < r2 && c1 < c2) {
+                for (int c = c2 - 1; c >= c1; --c) ans.push_back(matrix[r2][c]);
+                for (int r = r2 - 1; r >= r1 + 1; --r) ans.push_back(matrix[r][c1]);
+            }
+            ++r1, --r2, ++c1, --c2;
+        }
+        return ans;
+    }
+};
+```
+

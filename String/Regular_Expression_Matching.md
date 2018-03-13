@@ -25,6 +25,8 @@ isMatch("aab", "c*a*b") → true
 
 ## Solution 1 - recursive
 
+本题与 `剑指 offer` 面试题 53 相同，下面的写法更加简洁
+
 ```cpp
 class Solution {
 public:
@@ -41,6 +43,8 @@ public:
     }
 };
 ```
+
+C 似乎不用检查越界问题？似乎确定了 `*(p + 1) == '*'` 越界时是不会 == * 的。
 
 ```c
 class Solution {
