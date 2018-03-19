@@ -182,7 +182,12 @@ LeetCode Problems' Solutions and Notes
 | 140  | [Word Break II](https://leetcode.com/problems/word-break-ii) 待补充 | [C++](DynamicProgramming/Word_Break_II.md) | Hard       | `Dynamic Programming` |
 | 295  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) 待补充 | [C++](Heap/Find_Median_from_Data_Stream.md) | Hard       | `Heap`                |
 | 493  | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) 待补全 | [C++](Others/Reverse_Pairs.md)           | Hard       | `Others`              |
-|      |                                          |                                          |            |                       |
+| 201* | [Segment Tree Build](https://www.lintcode.com/problem/segment-tree-build/) | [C++](Segment Tree/Segment_Tree_Build.md) | Medium     | `Segment Tree`        |
+| 439* | [Segment Tree Build II](http://www.lintcode.com/en/problem/segment-tree-build-ii/) | [C++](Segment Tree/Segment_Tree_Build_II.md) | Medium     | `Segment Tree`        |
+| 202* | [Segment Tree Query](http://www.lintcode.com/en/problem/segment-tree-query/) | [C++](Segment Tree/Segment_Tree_Query.md) | Medium     | `Segment Tree`        |
+| 203* | [Segment Tree Modify](http://www.lintcode.com/en/problem/segment-tree-modify/) | [C++](Segment Tree/Segment_Tree_Modify.md) | Medium     | `Segment Tree`        |
+| 206* | [Interval Sum](http://www.lintcode.com/en/problem/interval-sum/#) | [C++](Segment Tree/Interval_Sum.md)      | Medium     | `Segment Tree`        |
+| 303  | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) 待补全 | [C++](Segment Tree/Range_Sum_Query-Immutable.md) | Easy       | `Segment Tree`        |
 |      |                                          |                                          |            |                       |
 |      |                                          |                                          |            |                       |
 |      |                                          |                                          |            |                       |

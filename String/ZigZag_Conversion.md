@@ -20,7 +20,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 ## Solution
 
-网上其他的做法有 找规律 `对于首行和末行之间的行，还会额外重复一次，重复的这一次距离本周期起始字符的距离是 2 * nRows - 2 - 2 * i` ，还有 用一个delta表示正向还是反向 等等，都不如 [参考解法](https://leetcode.com/problems/zigzag-conversion/discuss/3403/Easy-to-understand-Java-solution) 清晰易懂。感觉只要想好怎么存储数据就好。
+网上其他的做法有 找规律 `对于首行和末行之间的行，还会额外重复一次，重复的这一次距离本周期起始字符的距离是 2 * nRows - 2 - 2 * i` ，还有 用一个delta表示正向还是反向 等等，都不如 [参考解法](https://leetcode.com/problems/zigzag-conversion/discuss/3403/Easy-to-understand-Java-solution) 清晰易懂。感觉只要想好**怎么存储数据**就好。
 
 下面的做法定义了一个 `vector<string> vec(numRows);` 每行存一个 string
 
