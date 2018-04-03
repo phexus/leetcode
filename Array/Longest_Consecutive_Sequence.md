@@ -16,8 +16,9 @@ Your algorithm should run in O(n) complexity.
 
 这里用到了 hashset，value就是它自己的key，而不是像之前的unordered_map那样有键-值对，这里单纯就是为了方便查询这些值，时间复杂度为$$O(1)$$
 
+下面的解法最差时间复杂度是 $$O(n^2)$$
+
 ```cpp
-class Solution {
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
